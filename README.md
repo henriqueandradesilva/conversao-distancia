@@ -15,4 +15,4 @@ docker image ls
 docker push henriqueandradesilva/conversao-distancia:latest
 docker image rm $(docker image ls -q)
 docker system prune 
-docker container run -d -p 8080:5000 conversao-distancia:v1
+docker container run -d -p 8080:5000 henriqueandradesilva/conversao-distancia:v1
