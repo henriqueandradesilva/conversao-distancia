@@ -1,5 +1,7 @@
 # conversao-distancia
 
+docker push henriqueandradesilva/conversao-distancia:v2
+
 # docker hub
 docker pull henriqueandradesilva/conversao-distancia:v1
 docker pull henriqueandradesilva/conversao-distancia:latest
